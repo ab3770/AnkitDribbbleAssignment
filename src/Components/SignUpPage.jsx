@@ -122,7 +122,7 @@ function SignUpPage() {
                 <a href="notificatonsettings">Notificaton Settings</a>{" "}
               </label>
             </div>
-            <ButtonComp>Create Account</ButtonComp>
+            <ButtonComp otherProps={{ disabled: validationError }}>Create Account</ButtonComp>
           </form>
           <p className="text-[10px] text-[grey] mt-[20px]">
             This Site is protected by reCAPTCHA and the Google{" "}
