@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { SectionContainer } from "./ProfilePage";
 import ButtonComp, { BackButton } from "./ButtonComp";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
